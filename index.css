@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white
+}
+
+#upper-container {
+    background-color: #3A69D2;
+    padding: 40px ;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+#heading2 {
+     padding: 0 ;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#bottom-container {
+  background: #1F2937;  
+  padding: 30px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px  
+}
+
+#wash-btn, #mow-btn, #pull-btn  {
+    padding: 9px 13px;
+    border-radius: 7px;
+    background: #D1D4F4;
+    border: 2px solid #D1D4F4;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#sub-heading1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 0 15px 0;   
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#item1, #item2, #total-amount {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#receipt-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#wash-car-cost, #mow-lawn-cost, #pull-weed-cost {
+    display: flex;
+    justify-content: end;
+    align-items: end; 
+}
+
+#receipt-detail > div {
+    padding: 10px 0;
+}
+
+#sub-heading2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid #C3C6DB;
+    padding-top: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#final-amount {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#total-amount {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+#align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; 
+}
+
+#reset-btn {
+    height: 44px;
+    width: 473px;
+    left: 38px;
+    top: 626px;
+    border-radius: 7px;
+    padding: 9px, 17px, 9px, 15px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3A69D2;
+    border-color: #3A69D2;
+}
+
+#icon {
+    height: 12.000001907348633px;
+    width: 15.999998092651367px;
+    left: 2px;
+    top: 4px;
+    border-radius: 0px;
+
+}
